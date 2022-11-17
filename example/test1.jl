@@ -1,9 +1,9 @@
 #=
-    组织断裂示例代码——dynamic
-    time：2022-10-15
+    一个简单的顶点模型
+    time：2022-11-17
     created by：chen xuefei
     unit: normalize
-    备注：动态加载
+    备注：
 =# 
 using DelimitedFiles
 using LinearAlgebra
@@ -22,7 +22,7 @@ include("$(pwd())\\src\\translate\\force.jl")
 
 #parameter
 begin
-    global beta=0.09; #膜表面能系数Γ;  nN/μm
+    global beta=0.16; #膜表面能系数Γ;  nN/μm
     global P0=2.1;#2*sqrt(pi*A0); #单元目标周长  μm
     global k=0;#线张力Λ;       nN  待研究
     global dsep=0.2;#交换邻居后的边长度 μm
@@ -35,7 +35,7 @@ begin
     global mu=1;
 
     ##sove parameter
-    allstep=50000;   #总步数
+    allstep=1000;   #总步数
     dt=0.01;     #每一步时间
     t=Int(0);
     scr=2;
@@ -51,8 +51,8 @@ end
 #读取cell网格数据
 #生成网格：hexmesh(row,col,r,"$(pwd())\\data\\$(row)x$(col)_")
 begin
-    cellpoints=readdlm("$(pwd())\\data\\$(row)x$(col)_points.txt");#读取点坐标文件和poly文件
-    cellpolys=readdlm("$(pwd())\\data\\$(row)x$(col)_cell.txt",Int);
+    cellpoints=readdlm("$(pwd())\\data\\$(row)x$(col)_hexpoints.txt");#读取点坐标文件和poly文件
+    cellpolys=readdlm("$(pwd())\\data\\$(row)x$(col)_hexcell.txt",Int);
     node,cell=readCell(cellpoints,cellpolys);#其中cell里面的节点值改变会导致node里面的也随着改变
     global np=maximum(keys(node));#节点最大编号
     global nc=maximum(keys(cell));#单元最大编号
@@ -62,7 +62,7 @@ end
 while t<allstep
     
     #T2变换
-    rcell=CellsForT2(cell);#需要进行T1变换的单元
+    rcell=cellsForT2(cell);#需要进行T2变换的单元
     if rcell !=[]
         cell,node=T2Trans!(rcell,cell,node);
     end
@@ -85,7 +85,10 @@ while t<allstep
 
     #可视化
    
-    viewcell(cell,"$(fname)$(t)")
-    println(Int(floor(t/tim)))
+    viewcell(cell,"$(fname)$(t).vtp")
+    println(Int(t))
     t=t+1
 end
+
+
+

@@ -77,8 +77,8 @@ function hexmesh(m::Int,n::Int,r,adress::String)
     for i in 1:length(point)
         points[i,:]=values(point[i])
     end
-    writedlm("$adress\\hexpoints.txt",points)
-    writedlm("$adress\\hexcell.txt",[cell[i] for i in 1:m*n])
+    writedlm("$(adress)hexpoints.txt",points)
+    writedlm("$(adress)hexcell.txt",[cell[i] for i in 1:m*n])
 end
 
 """ 生成一个正多边形\n

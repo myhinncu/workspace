@@ -125,7 +125,7 @@ function inertia(p,x0,y0)
     Ixx=0
     Iyy=0
     Ixy=0
-    for i in 1:length(p)
+    for i in 1:1:length(p)
         if i<length(p)
             xi=p[i].x-x0
             yi=p[i].y-y0

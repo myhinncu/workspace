@@ -10,7 +10,7 @@ function edgeT1(cell)
     lpoint=[];#需要T1变换的边的两个节点[point1 point2]
     for i in collect(keys(cell))
         p=cell[i].p
-        for j in 1:length(p)
+        for j in 1:1:length(p)
             #
             if j==last(1:length(p))
                 b=1
