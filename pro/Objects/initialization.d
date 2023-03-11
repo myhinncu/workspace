@@ -1,0 +1,43 @@
+.\objects\initialization.o: ..\GD32F4xx_EVAL\controler_mcu_protocol\initialization.c
+.\objects\initialization.o: ..\GD32F4xx_EVAL\controler_mcu_protocol\initialization.h
+.\objects\initialization.o: D:\D1\keil5 prog\ARM\AC5\Bin\..\include\stdint.h
+.\objects\initialization.o: ..\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\initialization.o: ..\CMSIS\core_cm4.h
+.\objects\initialization.o: ..\CMSIS\core_cmInstr.h
+.\objects\initialization.o: ..\CMSIS\core_cmFunc.h
+.\objects\initialization.o: ..\CMSIS\core_cm4_simd.h
+.\objects\initialization.o: ..\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h
+.\objects\initialization.o: ..\Application\gd32f4xx_libopt.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h
+.\objects\initialization.o: ..\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h
+.\objects\initialization.o: D:\D1\keil5 prog\ARM\AC5\Bin\..\include\stdlib.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_ipa.h
+.\objects\initialization.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_tli.h
+.\objects\initialization.o: D:\D1\keil5 prog\ARM\AC5\Bin\..\include\stdio.h
+.\objects\initialization.o: ..\GD32F4xx_EVAL\controler_mcu_protocol\bluetooth_protocol.h

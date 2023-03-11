@@ -1,0 +1,46 @@
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_EVAL\controler_mcu_protocol\bluetooth_protocol.c
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_EVAL\controler_mcu_protocol\bluetooth_protocol.h
+.\objects\bluetooth_protocol.o: ..\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\bluetooth_protocol.o: ..\CMSIS\core_cm4.h
+.\objects\bluetooth_protocol.o: D:\D1\keil5 prog\ARM\AC5\Bin\..\include\stdint.h
+.\objects\bluetooth_protocol.o: ..\CMSIS\core_cmInstr.h
+.\objects\bluetooth_protocol.o: ..\CMSIS\core_cmFunc.h
+.\objects\bluetooth_protocol.o: ..\CMSIS\core_cm4_simd.h
+.\objects\bluetooth_protocol.o: ..\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h
+.\objects\bluetooth_protocol.o: ..\Application\gd32f4xx_libopt.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h
+.\objects\bluetooth_protocol.o: ..\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h
+.\objects\bluetooth_protocol.o: D:\D1\keil5 prog\ARM\AC5\Bin\..\include\stdlib.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_ipa.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_tli.h
+.\objects\bluetooth_protocol.o: D:\D1\keil5 prog\ARM\AC5\Bin\..\include\stdio.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_EVAL\ubt_motor.h
+.\objects\bluetooth_protocol.o: ..\GD32F4xx_EVAL\usart_urbantoo.h
+.\objects\bluetooth_protocol.o: ..\Application\systick.h
+.\objects\bluetooth_protocol.o: ..\Application\led.h

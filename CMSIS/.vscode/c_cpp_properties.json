@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "g:\\freertos\\project-0.1\\CMSIS\\GD\\GD32F4xx\\Include",
+                "g:\\freertos\\project-0.1\\CMSIS",
+                "g:\\freertos\\project-0.1\\GD32F4xx_standard_peripheral\\Include",
+                "g:\\freertos\\project-0.1\\Utilities",
+                "g:\\freertos\\project-0.1\\Application",
+                "g:\\freertos\\project-0.1\\freeRTOS\\source\\inc",
+                "g:\\freertos\\project-0.1\\freeRTOS\\portable\\RVDS\\ARM_CM4F",
+                "D:\\Keil_v5\\ARM\\ARMCC\\include",
+                "D:\\Keil_v5\\ARM\\ARMCC\\include\\rw",
+                "g:\\freertos\\project-0.1\\CMSIS\\GD\\GD32F4xx\\Source",
+                "g:\\freertos\\project-0.1\\GD32F4xx_standard_peripheral\\Source",
+                "g:\\freertos\\project-0.1\\GD32F4xx_EVAL",
+                "g:\\freertos\\project-0.1\\startup",
+                "g:\\freertos\\project-0.1\\freeRTOS\\source\\src",
+                "g:\\freertos\\project-0.1\\freeRTOS\\portable\\MemMang"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "D:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

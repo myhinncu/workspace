@@ -1,0 +1,46 @@
+.\objects\ubt_motor.o: ..\GD32F4xx_EVAL\ubt_motor.c
+.\objects\ubt_motor.o: ..\GD32F4xx_EVAL\ubt_motor.h
+.\objects\ubt_motor.o: D:\D1\keil5 prog\ARM\AC5\Bin\..\include\stdint.h
+.\objects\ubt_motor.o: ..\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\ubt_motor.o: ..\CMSIS\core_cm4.h
+.\objects\ubt_motor.o: ..\CMSIS\core_cmInstr.h
+.\objects\ubt_motor.o: ..\CMSIS\core_cmFunc.h
+.\objects\ubt_motor.o: ..\CMSIS\core_cm4_simd.h
+.\objects\ubt_motor.o: ..\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h
+.\objects\ubt_motor.o: ..\Application\gd32f4xx_libopt.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h
+.\objects\ubt_motor.o: ..\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h
+.\objects\ubt_motor.o: D:\D1\keil5 prog\ARM\AC5\Bin\..\include\stdlib.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_ipa.h
+.\objects\ubt_motor.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_tli.h
+.\objects\ubt_motor.o: ..\GD32F4xx_EVAL\usart_urbantoo.h
+.\objects\ubt_motor.o: ..\Application\systick.h
+.\objects\ubt_motor.o: ..\Application\led.h
+.\objects\ubt_motor.o: ..\GD32F4xx_EVAL\controler_mcu_protocol\initialization.h
+.\objects\ubt_motor.o: D:\D1\keil5 prog\ARM\AC5\Bin\..\include\stdio.h
