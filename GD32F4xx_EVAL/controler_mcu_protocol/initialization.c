@@ -15,20 +15,19 @@ void timer_configuration(char com)//timer定时器配置，启用timer_com。
     timer_initpara.prescaler         = 199;//
     timer_initpara.alignedmode       = TIMER_COUNTER_EDGE;
     timer_initpara.counterdirection  = TIMER_COUNTER_UP;
-    timer_initpara.period            = 49999;//0-999计数1000次
-    timer_initpara.clockdivision     = TIMER_CKDIV_DIV1;//用于输出逻辑
+    timer_initpara.period            = 999;//0-999计数1000次
+    timer_initpara.clockdivision     = TIMER_CKDIV_DIV1;
     timer_initpara.repetitioncounter = 0;
     timer_init(timer_num[com],&timer_initpara);
 
-		//timer_auto_reload_shadow_enable(timer_num[com]);//2023/3/1
-		timer_autoreload_value_config(timer_num[com],0);
+		timer_auto_reload_shadow_enable(timer_num[com]);//2023/3/1
     // clear channel com interrupt bit 
     timer_interrupt_flag_clear(timer_num[com],TIMER_INT_UP);
      //channel com interrupt enable 
-   // timer_interrupt_enable(timer_num[com],TIMER_INT_UP);
-		timer_single_pulse_mode_config(timer_num[com],TIMER_SP_MODE_SINGLE);
+    timer_interrupt_enable(timer_num[com],TIMER_INT_UP);
+
      //TIMER_com counter enable 
-   // timer_enable(timer_num[com]);
+    timer_enable(timer_num[com]);
 }
 
 void dma_configuration(void)
@@ -51,7 +50,7 @@ void dma_configuration(void)
     dma_circulation_disable(DMA1, DMA_CH2);
     dma_channel_subperipheral_select(DMA1, DMA_CH2, DMA_SUBPERI4);
     /* enable DMA1 channel2 transfer complete interrupt */
-    dma_interrupt_disable(DMA1, DMA_CH2, DMA_CHXCTL_FTFIE);
+    dma_interrupt_enable(DMA1, DMA_CH2, DMA_CHXCTL_FTFIE);
     /* enable DMA1 channel2 */
     dma_channel_enable(DMA1, DMA_CH2);
 }

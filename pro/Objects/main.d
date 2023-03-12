@@ -39,10 +39,18 @@
 .\objects\main.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_ipa.h
 .\objects\main.o: ..\GD32F4xx_standard_peripheral\Include\gd32f4xx_tli.h
 .\objects\main.o: ..\Application\systick.h
-.\objects\main.o: D:\D1\keil5 prog\ARM\AC5\Bin\..\include\stdio.h
-.\objects\main.o: ..\GD32F4xx_EVAL\controler_mcu_protocol\gd32f4xx_it.h
+.\objects\main.o: ..\Application\key.h
+.\objects\main.o: D:\D1\keil5 prog\ARM\AC5\Bin\..\include\stdbool.h
+.\objects\main.o: ..\freeRTOS\include\FreeRTOS.h
+.\objects\main.o: D:\D1\keil5 prog\ARM\AC5\Bin\..\include\stddef.h
+.\objects\main.o: ..\freeRTOS\include\FreeRTOSConfig.h
+.\objects\main.o: ..\freeRTOS\include\projdefs.h
+.\objects\main.o: ..\freeRTOS\include\portable.h
+.\objects\main.o: ..\freeRTOS\include\deprecated_definitions.h
+.\objects\main.o: ..\freeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\objects\main.o: ..\freeRTOS\include\mpu_wrappers.h
+.\objects\main.o: ..\freeRTOS\include\task.h
+.\objects\main.o: ..\freeRTOS\include\list.h
+.\objects\main.o: ..\freeRTOS\include\semphr.h
+.\objects\main.o: ..\freeRTOS\include\queue.h
 .\objects\main.o: ..\Application\led.h
-.\objects\main.o: ..\GD32F4xx_EVAL\usart_urbantoo.h
-.\objects\main.o: ..\GD32F4xx_EVAL\ubt_motor.h
-.\objects\main.o: ..\GD32F4xx_EVAL\controler_mcu_protocol\bluetooth_protocol.h
-.\objects\main.o: ..\GD32F4xx_EVAL\controler_mcu_protocol\initialization.h

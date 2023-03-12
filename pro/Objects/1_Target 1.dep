@@ -84,7 +84,7 @@ I (..\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x64043EC0)
 I (..\GD32F4xx_standard_peripheral\Include\gd32f4xx_ipa.h)(0x64043EC0)
 I (..\GD32F4xx_standard_peripheral\Include\gd32f4xx_tli.h)(0x64043EC0)
 F (..\Application\led.h)(0x64043EC0)()
-F (..\Application\main.c)(0x6409BB9D)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS\GD\GD32F4xx\Include -I ..\CMSIS -I ..\GD32F4xx_standard_peripheral\Include -I ..\Utilities -I ..\Application -I ..\GD32F4xx_EVAL -I ..\GD32F4xx_EVAL\controler_mcu_protocol -I ..\freeRTOS\include -I ..\freeRTOS\portable\MemMang -I ..\freeRTOS\portable\RVDS\ARM_CM4F-I"D:\D1\keil5 prog\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include"-D__UVISION_VERSION="538" -DGD32F450 -DGD32F450 -DUSE_USB_FS -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\Application\main.c)(0x640BF2FF)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS\GD\GD32F4xx\Include -I ..\CMSIS -I ..\GD32F4xx_standard_peripheral\Include -I ..\Utilities -I ..\Application -I ..\GD32F4xx_EVAL -I ..\GD32F4xx_EVAL\controler_mcu_protocol -I ..\freeRTOS\include -I ..\freeRTOS\portable\MemMang -I ..\freeRTOS\portable\RVDS\ARM_CM4F-I"D:\D1\keil5 prog\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include"-D__UVISION_VERSION="538" -DGD32F450 -DGD32F450 -DUSE_USB_FS -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x64043EC0)
 I (..\CMSIS\core_cm4.h)(0x64043EC0)
 I (D:\D1\keil5 prog\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
@@ -124,13 +124,21 @@ I (..\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x64043EC0)
 I (..\GD32F4xx_standard_peripheral\Include\gd32f4xx_ipa.h)(0x64043EC0)
 I (..\GD32F4xx_standard_peripheral\Include\gd32f4xx_tli.h)(0x64043EC0)
 I (..\Application\systick.h)(0x64043EC0)
-I (D:\D1\keil5 prog\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
-I (..\GD32F4xx_EVAL\controler_mcu_protocol\gd32f4xx_it.h)(0x64043EC0)
+I (..\Application\key.h)(0x64043EC0)
+I (D:\D1\keil5 prog\ARM\AC5\include\stdbool.h)(0x5E8E3CC2)
+I (..\freeRTOS\include\FreeRTOS.h)(0x64043EC0)
+I (D:\D1\keil5 prog\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (..\freeRTOS\include\FreeRTOSConfig.h)(0x64043EC0)
+I (..\freeRTOS\include\projdefs.h)(0x64043EC0)
+I (..\freeRTOS\include\portable.h)(0x64043EC0)
+I (..\freeRTOS\include\deprecated_definitions.h)(0x64043EC0)
+I (..\freeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x64043EC0)
+I (..\freeRTOS\include\mpu_wrappers.h)(0x64043EC0)
+I (..\freeRTOS\include\task.h)(0x64043EC0)
+I (..\freeRTOS\include\list.h)(0x64043EC0)
+I (..\freeRTOS\include\semphr.h)(0x64043EC0)
+I (..\freeRTOS\include\queue.h)(0x64043EC0)
 I (..\Application\led.h)(0x64043EC0)
-I (..\GD32F4xx_EVAL\usart_urbantoo.h)(0x64043EC0)
-I (..\GD32F4xx_EVAL\ubt_motor.h)(0x6409BCB2)
-I (..\GD32F4xx_EVAL\controler_mcu_protocol\bluetooth_protocol.h)(0x64043EC0)
-I (..\GD32F4xx_EVAL\controler_mcu_protocol\initialization.h)(0x6405AB80)
 F (..\Application\systick.c)(0x64043EC0)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS\GD\GD32F4xx\Include -I ..\CMSIS -I ..\GD32F4xx_standard_peripheral\Include -I ..\Utilities -I ..\Application -I ..\GD32F4xx_EVAL -I ..\GD32F4xx_EVAL\controler_mcu_protocol -I ..\freeRTOS\include -I ..\freeRTOS\portable\MemMang -I ..\freeRTOS\portable\RVDS\ARM_CM4F-I"D:\D1\keil5 prog\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include"-D__UVISION_VERSION="538" -DGD32F450 -DGD32F450 -DUSE_USB_FS -DUSE_STDPERIPH_DRIVER-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
 I (..\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x64043EC0)
 I (..\CMSIS\core_cm4.h)(0x64043EC0)
@@ -1423,8 +1431,8 @@ I (..\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x64043EC0)
 I (..\GD32F4xx_standard_peripheral\Include\gd32f4xx_ipa.h)(0x64043EC0)
 I (..\GD32F4xx_standard_peripheral\Include\gd32f4xx_tli.h)(0x64043EC0)
 F (..\GD32F4xx_EVAL\usart_urbantoo.h)(0x64043EC0)()
-F (..\GD32F4xx_EVAL\ubt_motor.c)(0x640AF3B3)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS\GD\GD32F4xx\Include -I ..\CMSIS -I ..\GD32F4xx_standard_peripheral\Include -I ..\Utilities -I ..\Application -I ..\GD32F4xx_EVAL -I ..\GD32F4xx_EVAL\controler_mcu_protocol -I ..\freeRTOS\include -I ..\freeRTOS\portable\MemMang -I ..\freeRTOS\portable\RVDS\ARM_CM4F-I"D:\D1\keil5 prog\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include"-D__UVISION_VERSION="538" -DGD32F450 -DGD32F450 -DUSE_USB_FS -DUSE_STDPERIPH_DRIVER-o .\objects\ubt_motor.o --omf_browse .\objects\ubt_motor.crf --depend .\objects\ubt_motor.d)
-I (..\GD32F4xx_EVAL\ubt_motor.h)(0x6409BCB2)
+F (..\GD32F4xx_EVAL\ubt_motor.c)(0x64043EC0)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS\GD\GD32F4xx\Include -I ..\CMSIS -I ..\GD32F4xx_standard_peripheral\Include -I ..\Utilities -I ..\Application -I ..\GD32F4xx_EVAL -I ..\GD32F4xx_EVAL\controler_mcu_protocol -I ..\freeRTOS\include -I ..\freeRTOS\portable\MemMang -I ..\freeRTOS\portable\RVDS\ARM_CM4F-I"D:\D1\keil5 prog\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include"-D__UVISION_VERSION="538" -DGD32F450 -DGD32F450 -DUSE_USB_FS -DUSE_STDPERIPH_DRIVER-o .\objects\ubt_motor.o --omf_browse .\objects\ubt_motor.crf --depend .\objects\ubt_motor.d)
+I (..\GD32F4xx_EVAL\ubt_motor.h)(0x64043EC0)
 I (D:\D1\keil5 prog\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x64043EC0)
 I (..\CMSIS\core_cm4.h)(0x64043EC0)
@@ -1466,9 +1474,7 @@ I (..\GD32F4xx_standard_peripheral\Include\gd32f4xx_tli.h)(0x64043EC0)
 I (..\GD32F4xx_EVAL\usart_urbantoo.h)(0x64043EC0)
 I (..\Application\systick.h)(0x64043EC0)
 I (..\Application\led.h)(0x64043EC0)
-I (..\GD32F4xx_EVAL\controler_mcu_protocol\initialization.h)(0x6405AB80)
-I (D:\D1\keil5 prog\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
-F (..\GD32F4xx_EVAL\ubt_motor.h)(0x6409BCB2)()
+F (..\GD32F4xx_EVAL\ubt_motor.h)(0x64043EC0)()
 F (..\GD32F4xx_EVAL\controler_mcu_protocol\bluetooth_protocol.c)(0x64043EC0)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS\GD\GD32F4xx\Include -I ..\CMSIS -I ..\GD32F4xx_standard_peripheral\Include -I ..\Utilities -I ..\Application -I ..\GD32F4xx_EVAL -I ..\GD32F4xx_EVAL\controler_mcu_protocol -I ..\freeRTOS\include -I ..\freeRTOS\portable\MemMang -I ..\freeRTOS\portable\RVDS\ARM_CM4F-I"D:\D1\keil5 prog\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include"-D__UVISION_VERSION="538" -DGD32F450 -DGD32F450 -DUSE_USB_FS -DUSE_STDPERIPH_DRIVER-o .\objects\bluetooth_protocol.o --omf_browse .\objects\bluetooth_protocol.crf --depend .\objects\bluetooth_protocol.d)
 I (..\GD32F4xx_EVAL\controler_mcu_protocol\bluetooth_protocol.h)(0x64043EC0)
 I (..\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x64043EC0)
@@ -1510,12 +1516,12 @@ I (..\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x64043EC0)
 I (..\GD32F4xx_standard_peripheral\Include\gd32f4xx_ipa.h)(0x64043EC0)
 I (..\GD32F4xx_standard_peripheral\Include\gd32f4xx_tli.h)(0x64043EC0)
 I (D:\D1\keil5 prog\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
-I (..\GD32F4xx_EVAL\ubt_motor.h)(0x6409BCB2)
+I (..\GD32F4xx_EVAL\ubt_motor.h)(0x64043EC0)
 I (..\GD32F4xx_EVAL\usart_urbantoo.h)(0x64043EC0)
 I (..\Application\systick.h)(0x64043EC0)
 I (..\Application\led.h)(0x64043EC0)
 F (..\GD32F4xx_EVAL\controler_mcu_protocol\copy.c)(0x64043EC0)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS\GD\GD32F4xx\Include -I ..\CMSIS -I ..\GD32F4xx_standard_peripheral\Include -I ..\Utilities -I ..\Application -I ..\GD32F4xx_EVAL -I ..\GD32F4xx_EVAL\controler_mcu_protocol -I ..\freeRTOS\include -I ..\freeRTOS\portable\MemMang -I ..\freeRTOS\portable\RVDS\ARM_CM4F-I"D:\D1\keil5 prog\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include"-D__UVISION_VERSION="538" -DGD32F450 -DGD32F450 -DUSE_USB_FS -DUSE_STDPERIPH_DRIVER-o .\objects\copy.o --omf_browse .\objects\copy.crf --depend .\objects\copy.d)
-F (..\GD32F4xx_EVAL\controler_mcu_protocol\gd32f4xx_it.c)(0x640AF3EB)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS\GD\GD32F4xx\Include -I ..\CMSIS -I ..\GD32F4xx_standard_peripheral\Include -I ..\Utilities -I ..\Application -I ..\GD32F4xx_EVAL -I ..\GD32F4xx_EVAL\controler_mcu_protocol -I ..\freeRTOS\include -I ..\freeRTOS\portable\MemMang -I ..\freeRTOS\portable\RVDS\ARM_CM4F-I"D:\D1\keil5 prog\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include"-D__UVISION_VERSION="538" -DGD32F450 -DGD32F450 -DUSE_USB_FS -DUSE_STDPERIPH_DRIVER-o .\objects\gd32f4xx_it.o --omf_browse .\objects\gd32f4xx_it.crf --depend .\objects\gd32f4xx_it.d)
+F (..\GD32F4xx_EVAL\controler_mcu_protocol\gd32f4xx_it.c)(0x6409BB54)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS\GD\GD32F4xx\Include -I ..\CMSIS -I ..\GD32F4xx_standard_peripheral\Include -I ..\Utilities -I ..\Application -I ..\GD32F4xx_EVAL -I ..\GD32F4xx_EVAL\controler_mcu_protocol -I ..\freeRTOS\include -I ..\freeRTOS\portable\MemMang -I ..\freeRTOS\portable\RVDS\ARM_CM4F-I"D:\D1\keil5 prog\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include"-D__UVISION_VERSION="538" -DGD32F450 -DGD32F450 -DUSE_USB_FS -DUSE_STDPERIPH_DRIVER-o .\objects\gd32f4xx_it.o --omf_browse .\objects\gd32f4xx_it.crf --depend .\objects\gd32f4xx_it.d)
 I (..\GD32F4xx_EVAL\controler_mcu_protocol\gd32f4xx_it.h)(0x64043EC0)
 I (..\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x64043EC0)
 I (..\CMSIS\core_cm4.h)(0x64043EC0)
@@ -1559,8 +1565,8 @@ I (..\GD32F4xx_EVAL\controler_mcu_protocol\bluetooth_protocol.h)(0x64043EC0)
 I (D:\D1\keil5 prog\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
 I (..\Application\systick.h)(0x64043EC0)
 I (..\Application\led.h)(0x64043EC0)
-F (..\GD32F4xx_EVAL\controler_mcu_protocol\initialization.c)(0x640AF379)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS\GD\GD32F4xx\Include -I ..\CMSIS -I ..\GD32F4xx_standard_peripheral\Include -I ..\Utilities -I ..\Application -I ..\GD32F4xx_EVAL -I ..\GD32F4xx_EVAL\controler_mcu_protocol -I ..\freeRTOS\include -I ..\freeRTOS\portable\MemMang -I ..\freeRTOS\portable\RVDS\ARM_CM4F-I"D:\D1\keil5 prog\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include"-D__UVISION_VERSION="538" -DGD32F450 -DGD32F450 -DUSE_USB_FS -DUSE_STDPERIPH_DRIVER-o .\objects\initialization.o --omf_browse .\objects\initialization.crf --depend .\objects\initialization.d)
-I (..\GD32F4xx_EVAL\controler_mcu_protocol\initialization.h)(0x6405AB80)
+F (..\GD32F4xx_EVAL\controler_mcu_protocol\initialization.c)(0x6409B7F5)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS\GD\GD32F4xx\Include -I ..\CMSIS -I ..\GD32F4xx_standard_peripheral\Include -I ..\Utilities -I ..\Application -I ..\GD32F4xx_EVAL -I ..\GD32F4xx_EVAL\controler_mcu_protocol -I ..\freeRTOS\include -I ..\freeRTOS\portable\MemMang -I ..\freeRTOS\portable\RVDS\ARM_CM4F-I"D:\D1\keil5 prog\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include"-D__UVISION_VERSION="538" -DGD32F450 -DGD32F450 -DUSE_USB_FS -DUSE_STDPERIPH_DRIVER-o .\objects\initialization.o --omf_browse .\objects\initialization.crf --depend .\objects\initialization.d)
+I (..\GD32F4xx_EVAL\controler_mcu_protocol\initialization.h)(0x64043EC0)
 I (D:\D1\keil5 prog\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x64043EC0)
 I (..\CMSIS\core_cm4.h)(0x64043EC0)

@@ -42,5 +42,3 @@
 .\objects\ubt_motor.o: ..\GD32F4xx_EVAL\usart_urbantoo.h
 .\objects\ubt_motor.o: ..\Application\systick.h
 .\objects\ubt_motor.o: ..\Application\led.h
-.\objects\ubt_motor.o: ..\GD32F4xx_EVAL\controler_mcu_protocol\initialization.h
-.\objects\ubt_motor.o: D:\D1\keil5 prog\ARM\AC5\Bin\..\include\stdio.h

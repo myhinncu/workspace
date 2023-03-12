@@ -1,7 +1,7 @@
 
 #include "ubt_motor.h"
-#include "gd32f4xx.h"
-#include "initialization.h"
+
+
 
 //chat补完，计算length和cs字节
 void chat_patch(void)
@@ -262,15 +262,10 @@ void usart_moto_receive(int com)
 
 //水弹发射
 void fire_control(int firecom,char velocity)
-{	
-		usart_disable(usart_num[0]);
-		timer_enable(timer_num[6]);
+{
     send_char(firecom,0x94);
-    while(timer_flag_get(TIMER6,TIMER_FLAG_UP)==0);//延迟55ms
+    delay_x_ms(55);//延迟55ms
     send_char(firecom,velocity);
-		timer_flag_clear(TIMER6,TIMER_FLAG_UP);
-		//timer_disable(timer_num[6]);
-		usart_enable(usart_num[0]);
 }
 
 //void motor_stoppattern_integrate(int motorcom,char pattern)//把四个电机的停止模式统一起来，因为停止模式肯定都是一样的。
